@@ -1,0 +1,12 @@
+function swap(a, b) {
+    let temp = a;
+    a = b;
+    b = temp;
+    console.log(a, b);
+}
+
+let x = 10;
+let y = 48;
+
+swap(x, y);
+console.log(x, y);
