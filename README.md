@@ -24,4 +24,9 @@ function swap(a, b) {
     console.log(a, b);
 }
 
-let x =
+let x = 10;
+let y = 48;
+
+swap(x, y);
+console.log(x, y);
+
